@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.control{
+    display: flex;
+    width:  500px;
+    height: 500px;
+    flex-wrap: wrap;
+    flex-direction:column ;
+}
+
+.pixel{
+    background-color: blue;
+   
+    flex: 0 0 10%;
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+}
